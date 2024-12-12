@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>список товаров </title>
+    </head>
+    <body>
+        <h1>список товаров</h1>
+        <dl>
+           
+            {%for i in range(0, len)%} 
+                <dt>{{ names[i]}}</dt> 
+                <dd>Цена {{ prices[i]}}</dd> 
+            {%endfor%}
+        </dl> 
+    </body>
+</html>

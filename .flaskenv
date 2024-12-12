@@ -1,0 +1,2 @@
+FLASK_APP=getgoods.py
+FLASK_ENV=development
