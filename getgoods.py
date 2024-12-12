@@ -15,7 +15,7 @@ if response.status_code == 200:
     goods = response.json()
     for good in goods:
         names.append(good['name'])
-        prices.append(str(good['price']))
+        prices.append(good['price'])
 else:
     print(f"Failed to fetch data: {response.status_code}")
 
